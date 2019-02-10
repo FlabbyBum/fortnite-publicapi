@@ -1,6 +1,6 @@
 {
   "name": "fortnite-publicapi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple package built for fortniteapi.com",
   "main": "index.js",
   "repository": {
@@ -10,6 +10,7 @@
   "author": "PlusFlabby <plusflabby@gmail.com>",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.88.0"
+    "request": "^2.88.0",
+    "typescript": "^3.2.4"
   }
 }

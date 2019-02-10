@@ -1,9 +1,17 @@
 const request = require('request');
-function Return(data, callback) {
-    if (callback == undefined) {
-        return data;
-    } else {
-        return callback(data)
+async function Return(data, callback) {
+    try {
+        if (callback == undefined) {
+            return JSON.parse(data);
+        } else {
+            return callback(JSON.parse(data))
+        }
+    } catch (e) {
+        if (callback == undefined) {
+            return e;
+        } else {
+            return callback(e)
+        }
     }
 }
 
