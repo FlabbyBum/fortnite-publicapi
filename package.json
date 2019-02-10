@@ -1,12 +1,17 @@
 {
   "name": "fortnite-publicapi",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple package built for fortniteapi.com",
   "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/FlabbyBum/fortnite-publicapi"
   },
+  "keywords": [
+    "fortnite",
+    "api",
+    "public"
+  ],
   "author": "PlusFlabby <plusflabby@gmail.com>",
   "license": "ISC",
   "dependencies": {
