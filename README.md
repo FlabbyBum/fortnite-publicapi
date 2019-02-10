@@ -26,7 +26,7 @@ Fortnite.Search('Ninja', (data) => {
 </p></details>
 
 ## Functions
-### Fortnite.Search(Username)
+### Fortnite.Search(Username, Callback)
 ```javascript
 Fortnite.Search('Ninja', (data) => {
     console.log(data)
